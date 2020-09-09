@@ -1,0 +1,108 @@
+/* #texts_sectionId {
+    left: 5%;
+    opacity: 1;
+  } */
+
+.texts_container {
+    width: 100%;
+    display: -ms-Flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    overflow-x: visible;
+    white-space: nowrap;
+  }
+  
+  .texts_container .text_links {
+    text-align: left;
+    padding-left: 1em;
+    overflow-x: visible;
+  }
+  
+  .text_links h2 {
+    font-size: 1.3em;
+  }
+  
+  .texts_container .text_links li {
+    list-style: none;
+    padding: 0.3em 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .text_links li:hover::before {
+    content: ">";
+    position: absolute;
+    margin-top: -15px;
+    left: -4%;
+    font-size: 2em;
+    color: #F39130;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .text_links li:hover {
+    font-size: 1.3em;
+    color: #F39130;
+  }
+  
+  .text_links li a {
+    text-decoration: none;
+    color: white;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .text_links li:hover a {
+    color: #F39130;
+  
+  }
+
+  .light18 {
+    height: 100px;
+    width: 100px;
+    top: 26%;
+    left: 65%;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 0;
+  }
+  
+  .light18:before {
+  
+    background: linear-gradient(rgb(122, 105, 88), #C79DA7, rgb(173, 108, 123), #F9C794);
+  }
+  
+  /* light 19 center right */
+  
+  .light19 {
+    height: 25px;
+    width: 25px;
+    top: 20%;
+    left: 74%;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .light19:before {
+  
+    background: linear-gradient(rgb(122, 105, 88), #C79DA7, rgb(173, 108, 123), #F9C794);
+  }
+  
+  .light20 {
+    height: 35px;
+    width: 35px;
+    top: 10%;
+    left: 68%;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .light20:before {
+  
+    background: linear-gradient(rgb(122, 105, 88), #C79DA7, rgb(173, 108, 123), #F9C794);
+  }

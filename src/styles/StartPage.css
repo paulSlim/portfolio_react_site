@@ -1,0 +1,379 @@
+.orbs {
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    opacity: 0.8;
+    z-index: 2;
+  }
+  
+  .orbs:before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    bottom: -15px;
+    left: -15px;
+    right: -15px;
+    border: none;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -o-animation: flow_light 12s linear infinite;
+    -webkit-animation: flow_light 12s linear infinite;
+    animation: flow_light 12s linear infinite;
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+    z-index: -1;
+  }
+  
+  /* light1 bottom left */
+  
+  .light1 {
+    height: 23px;
+    width: 23px;
+    top: 65%;
+    left: 44%;
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  
+  .light1:before {
+    background: linear-gradient(#884D15, rgb(197, 135, 150), #C79DA7, #F9C794);
+  }
+  
+  /* light 2 center left */
+  
+  .light2 {
+    height: 0px;
+    width: 0px;
+    top: 50%;
+    left: 55%;
+    opacity: 0;
+    -ms-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+  }
+  
+  .light2:before {
+  
+    background: linear-gradient(#884D15, #C79DA7, #C79DA7, #F9C794);
+  }
+  
+  /* light 3 up center */
+  
+  .light3 {
+    height: 48px;
+    width: 48px;
+    top: 35%;
+    left: 33%;
+    -ms-transform: rotate(-75deg);
+    -webkit-transform: rotate(-75deg);
+    transform: rotate(-75deg);
+  }
+  
+  .light3:before {
+  
+    background: linear-gradient(#884D15, #C79DA7, rgb(151, 95, 108), #F9C794);
+  }
+  
+  /* light 4 bottom right */
+  
+  .light4 {
+    height: 55px;
+    width: 55px;
+    top: 70%;
+    left: 62%;
+    -ms-transform: rotate(-85deg);
+    -webkit-transform: rotate(-85deg);
+    transform: rotate(-85deg);
+  }
+  
+  .light4:before {
+  
+    background: linear-gradient(#884D15, #C79DA7, #C79DA7, rgb(238, 174, 110));
+  }
+  
+  /* light 5 center right */
+  
+  .light5 {
+    height: 25px;
+    width: 25px;
+    top: 17%;
+    left: 80%;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .light5:before {
+  
+    background: linear-gradient(rgb(122, 105, 88), #C79DA7, rgb(173, 108, 123), #F9C794);
+  }
+  
+  /* light 6 center left */
+  
+  .light6 {
+    height: 48px;
+    width: 48px;
+    top: 60%;
+    left: 32%;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  
+  .light6:before {
+  
+    background: linear-gradient(#884D15, #C79DA7, #C79DA7, rgb(133, 101, 69));
+  }
+  
+  /* light 7 center right */
+  
+  .light7 {
+    height: 45px;
+    width: 45px;
+    top: 10%;
+    left: 39%;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .light7:before {
+  
+    background: linear-gradient(#884D15, rgb(102, 67, 75), #C79DA7, #F9C794);
+  }
+  
+  /* light 8 up left */
+  
+  .light8 {
+    height: 64px;
+    width: 64px;
+    top: 26%;
+    left: 23%;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  
+  .light8:before {
+  
+    background: linear-gradient(rgb(128, 83, 42), rgb(129, 78, 90), rgb(141, 78, 92), #F9C794);
+  }
+  
+  /* light 9 center right */
+  
+  .light9 {
+    height: 35px;
+    width: 35px;
+    top: 60%;
+    left: 55%;
+    -ms-transform: rotate(-67deg);
+    -webkit-transform: rotate(-67deg);
+    transform: rotate(-67deg);
+  }
+  
+  .light9:before {
+  
+    background: linear-gradient(#884D15, #C79DA7, #C79DA7, #F9C794);
+  }
+  
+  /* light 10 center right */
+  
+  .light10 {
+    height: 0;
+    width: 0;
+    top: 51%;
+    left: 48%;
+    opacity: 0;
+    -ms-transform: rotate(80deg);
+    -webkit-transform: rotate(80deg);
+    transform: rotate(80deg);
+  }
+  
+  .light10:before {
+  
+    background: linear-gradient(#884D15, #C79DA7, #C79DA7, rgb(129, 95, 62));
+  }
+  
+  /* light 11 center right */
+  
+  .light11 {
+    height: 48px;
+    width: 48px;
+    top: 80%;
+    left: 40%;
+    -ms-transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+    transform: rotate(12deg);
+  }
+  
+  .light11:before {
+  
+    background: linear-gradient(#884D15, #C79DA7, #C79DA7, #F9C794);
+  }
+  
+  /* light 12 center right */
+  
+  .light12 {
+    height: 60px;
+    width: 60px;
+    top: 27%;
+    left: 66%;
+    -ms-transform: rotate(85deg);
+    -webkit-transform: rotate(85deg);
+    transform: rotate(85deg);
+  }
+  
+  .light12:before {
+  
+    background: linear-gradient(#884D15, #C79DA7, #C79DA7, #F9C794);
+  }
+  
+  /* light 13 center right */
+  
+  .light13 {
+    height: 35px;
+    width: 35px;
+    top: 53%;
+    left: 62%;
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  
+  .light13:before {
+  
+    background: linear-gradient(#884D15, #C79DA7, rgb(151, 75, 93), #F9C794);
+  }
+  
+  /* light 14 center right */
+  
+  .light14 {
+    height: 25px;
+    width: 25px;
+    top: 45%;
+    left: 41%;
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  
+  .light14:before {
+  
+    background: linear-gradient(#884D15, #C79DA7, #C79DA7, #F9C794);
+  }
+  
+  /* light 15 center right */
+  
+  .light15 {
+    height: 33px;
+    width: 33px;
+    top: 43%;
+    left: 52%;
+    -ms-transform: rotate(-67deg);
+    -webkit-transform: rotate(-67deg);
+    transform: rotate(-67deg);
+  }
+  
+  .light15:before {
+  
+    background: linear-gradient(#884D15, #C79DA7, #C79DA7, #F9C794);
+  }
+  
+  /* light 16 center right */
+  
+  .light16 {
+    height: 48px;
+    width: 48px;
+    top: 35%;
+    left: 58%;
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  
+  .light16:before {
+  
+    background: linear-gradient(rgb(131, 106, 83), rgb(119, 79, 89), #C79DA7, #F9C794);
+  }
+  
+  /* light 17 central */
+  
+  .light17 {
+    height: 310px;
+    width: 350px;
+    top: 28%;
+    left: 37%;
+    z-index: 0;
+  }
+  
+  .light17:before {
+  
+    background: linear-gradient(#884D15, #C79DA7, #C79DA7, #F9C794);
+  }
+
+  
+  
+  
+  
+  /* FUNCTION BUTTONS */
+  
+  .btn_fn {
+    position: absolute;
+    top: 78%;
+    width: 9em;
+    padding: 0.2em 0.5em;
+    font-size: 2em;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .btn_fn:hover {
+    border: 2px solid rgb(245, 212, 178);
+    color: rgb(245, 212, 178);
+  
+  }
+  
+  .copywriter {
+    left: 8%;
+  }
+  
+  
+  .designer {
+    left: 70%;
+  }
+  
+  /* #start_content {
+    left: 5%;
+    opacity: 1;
+  } */
+
+  .main_photo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 5%;
+    opacity: 1;
+    left: 48%;
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 1;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  
+  }
+
+  .main_photo img {
+    width: 55%;
+    opacity: 0.8;
+  }

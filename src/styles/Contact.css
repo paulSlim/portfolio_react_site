@@ -1,0 +1,131 @@
+.fa {
+    background: white;
+    color: black;
+    margin: 0 .1em;
+    padding: 10px;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  .fa:hover {
+    background: #F9C794;
+  }
+  
+  .fa_active {
+    background: black;
+    color: white;
+  }
+  
+  .contact_container {
+    position: absolute;
+    display: inline;
+    right: 3%;
+    top: 2%;
+    z-index: 4;
+  }
+  
+  .contact_link {
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact_link_active {
+    color: black;
+  }
+  
+  .contact_link:hover {
+    color: #F9C794;
+  }
+  
+  .contact_form_container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-radius: 0 0 0 400%;
+    font-family: 'Hammersmith One', serif;
+    background-color: white;
+    z-index: 2;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .contact_form_container_active {
+    width: 30%;
+    height: 100%;
+    border-radius: 0;
+  }
+  
+  .contact_form_container h1 {
+    opacity: 0;
+    font-size: 1em;
+  }
+  
+  .contact_form_container p {
+    padding: 1em;
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+  
+  .contact_form {
+    position: absolute;
+    top: 13%;
+    padding: 1em;
+    width: 100%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .contact_form_content {
+    opacity: 0;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+  }
+  
+  .contact_form_content_active {
+    opacity: 1;
+  }
+  
+  .contact_form input[type=text],
+  .contact_form textarea {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid black;
+    margin-top: 1.5em;
+    resize: vertical;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .contact_form input[type=text]:focus,
+  .contact_form textarea:focus {
+    border: 1px solid rgb(247, 147, 47);
+  }
+  
+  .contact_form input[type=submit] {
+    background: none;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    width: 30%;
+    border: 1px solid black;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .contact_form input[type=submit]:hover {
+    border: 1px solid rgb(247, 147, 47);
+    color: rgb(247, 147, 47);
+  }

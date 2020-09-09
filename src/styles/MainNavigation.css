@@ -1,0 +1,85 @@
+.totem {
+    position: absolute;
+    width: 120%;
+    height: 100%;
+    top: 0;
+    right: 57%;
+    border-radius: 0% 0% 80% 0;
+    opacity: 0;
+    background-color: white;
+    -webkit-transition: 6s;
+    transition: 6s;
+  }
+  
+  .totem_active {
+    -ms-transform: rotate(-80deg);
+    -webkit-transform: rotate(-80deg);
+    transform: rotate(-80deg);
+    background-color: white;
+    border-radius: 0% 0% 0% 0;
+    opacity: 1;
+    z-index: 3;
+  }
+  
+  .totem nav {
+    position: absolute;
+    width: 130px;
+    bottom: -4%;
+    right: 31%;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  
+  .main_nav {
+    display: none;
+  }
+  
+  /* nav links */
+
+  .totem nav li {
+    list-style-type: none;
+  }
+  
+  .nav_links {
+    display: block;
+    text-decoration: none;
+    width: 150px;
+    text-align: left;
+    border: none;
+    padding: 0.5em;
+    margin-top: 5px;
+    color: black;
+    background: transparent;
+    font-size: 1.5em;
+    -webkit-transition: 0.5s;
+    transition: .5s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .nav_links:hover,
+  .nav_links.active {
+    color: white;
+  }
+  
+  .nav_links::before {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background: black;
+    z-index: -1;
+    -webkit-transition: 0.8s ease-out;
+    transition: .8s ease-out;
+    border-radius: 0;
+  }
+  
+  .nav_links.active::before,
+  .nav_links:hover::before {
+    width: 160%;
+  }
+
+  
