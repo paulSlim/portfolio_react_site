@@ -30,6 +30,9 @@ class HeroStart extends Component {
         setTimeout(() => this.setState({
             showTitlePage: false,
         }), 5000);
+        setTimeout(() => {
+            document.querySelector('#navlink_start a').click();
+        }, 5000)
     }
 
     componentDidMount() {
